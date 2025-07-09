@@ -1,0 +1,12 @@
+.main-content {
+  margin-top: 70px;
+  min-height: calc(100vh - 70px);
+  background: #f8fafc;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.content-wrapper {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
