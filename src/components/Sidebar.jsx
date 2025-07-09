@@ -5,7 +5,13 @@ import "./Sidebar.css";
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const location = useLocation();
   const features = [
-    { id: "pos-app", name: "POS - App", icon: "🛒", path: "/pos-app" },
+    { id: "pos-app", name: "POS - App (Tablet)", icon: "🛒", path: "/pos-app" },
+    {
+      id: "responsive",
+      name: "Responsive Components",
+      icon: "📱",
+      path: "/responsive",
+    },
   ];
 
   // Handle ESC key to close sidebar
