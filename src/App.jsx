@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/playbox">
       <div className="app">
         <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
 
