@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import HomePage from "./pages/HomePage";
-import POSApp from "./pages/POSApp/POSApp";
 import "./App.css";
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <div className="app">
         <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
 
@@ -28,7 +27,7 @@ function App() {
           </Route>
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
