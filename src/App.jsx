@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import HomePage from "./pages/HomePage";
+import POSApp from "./pages/POSApp/POSApp";
 import "./App.css";
 
 function App() {
