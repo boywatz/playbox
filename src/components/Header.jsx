@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import ActivityTracker from "./ActivityTracker";
 import "./Header.css";
 
 const Header = ({ toggleSidebar }) => {
@@ -27,6 +28,7 @@ const Header = ({ toggleSidebar }) => {
       </div>
 
       <div className="header-right">
+        <ActivityTracker />
         <span className="status-badge">Dev Mode</span>
       </div>
     </header>
