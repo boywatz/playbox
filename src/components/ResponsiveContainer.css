@@ -8,7 +8,7 @@
   background: #f8fafc;
 }
 
-.responsive-container::before {
+/* .responsive-container::before {
   content: attr(data-device);
   position: absolute;
   top: -8px;
@@ -21,7 +21,7 @@
   font-weight: 500;
   text-transform: uppercase;
   z-index: 10;
-}
+} */
 
 /* Mobile styles */
 .responsive-container.mobile {
@@ -32,10 +32,10 @@
   background: #fef2f2;
 }
 
-.responsive-container.mobile::before {
+/* .responsive-container.mobile::before {
   background: #ef4444;
   content: "📱 Mobile";
-}
+} */
 
 /* Tablet styles */
 .responsive-container.tablet {
@@ -46,10 +46,10 @@
   background: #fffbeb;
 }
 
-.responsive-container.tablet::before {
+/* .responsive-container.tablet::before {
   background: #f59e0b;
   content: "📱 Tablet Portrait";
-}
+} */
 
 /* Tablet Landscape styles */
 .responsive-container.tablet-landscape {
@@ -60,10 +60,10 @@
   background: #faf5ff;
 }
 
-.responsive-container.tablet-landscape::before {
+/* .responsive-container.tablet-landscape::before {
   background: #8b5cf6;
   content: "📱 Tablet Landscape";
-}
+} */
 
 /* Desktop styles */
 .responsive-container.desktop {
@@ -73,10 +73,10 @@
   background: #f0fdf4;
 }
 
-.responsive-container.desktop::before {
+/* .responsive-container.desktop::before {
   background: #10b981;
   content: "🖥️ Desktop";
-}
+} */
 
 /* Content area */
 .responsive-container > * {
@@ -87,9 +87,9 @@
 
 /* Responsive utilities */
 @media (max-width: 767px) {
-  .responsive-container {
+  /* .responsive-container {
     margin: 10px;
-  }
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {

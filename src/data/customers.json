@@ -1,0 +1,182 @@
+[
+  {
+    "customerId": "C001",
+    "customerName": "บริษัท แจ่มฟ้า เซฟมาร์ท จำกัด",
+    "customerRegion": "เหนือ",
+    "customerDistrict": "403",
+    "customerProvince": "ลำพูน",
+    "customerType": "WS",
+    "customerCreditLimit": "240,000.00"
+  },
+  {
+    "customerId": "C002",
+    "customerName": "บริษัท ไทยฟู้ด เซ็นเตอร์ จำกัด",
+    "customerRegion": "กลาง",
+    "customerDistrict": "101",
+    "customerProvince": "กรุงเทพมหานคร",
+    "customerType": "RT",
+    "customerCreditLimit": "180,000.00"
+  },
+  {
+    "customerId": "C003",
+    "customerName": "ห้างหุ้นส่วนจำกัด สุวรรณภูมิ เทรดดิ้ง",
+    "customerRegion": "ตะวันออก",
+    "customerDistrict": "201",
+    "customerProvince": "ชลบุรี",
+    "customerType": "WS",
+    "customerCreditLimit": "320,000.00"
+  },
+  {
+    "customerId": "C004",
+    "customerName": "บริษัท เชียงใหม่ เกษตรอุตสาหกรรม จำกัด",
+    "customerRegion": "เหนือ",
+    "customerDistrict": "501",
+    "customerProvince": "เชียงใหม่",
+    "customerType": "AG",
+    "customerCreditLimit": "450,000.00"
+  },
+  {
+    "customerId": "C005",
+    "customerName": "ร้าน นคร มินิมาร์ท",
+    "customerRegion": "ใต้",
+    "customerDistrict": "801",
+    "customerProvince": "นครศรีธรรมราช",
+    "customerType": "RT",
+    "customerCreditLimit": "85,000.00"
+  },
+  {
+    "customerId": "C006",
+    "customerName": "บริษัท พัทยา โชปปิ้ง เซ็นเตอร์ จำกัด",
+    "customerRegion": "ตะวันออก",
+    "customerDistrict": "202",
+    "customerProvince": "ชลบุรี",
+    "customerType": "WS",
+    "customerCreditLimit": "650,000.00"
+  },
+  {
+    "customerId": "C007",
+    "customerName": "ห้างหุ้นส่วนจำกัด อีสาน เฟรช มาร์เก็ต",
+    "customerRegion": "ตะวันออกเฉียงเหนือ",
+    "customerDistrict": "301",
+    "customerProvince": "ขอนแก่น",
+    "customerType": "RT",
+    "customerCreditLimit": "195,000.00"
+  },
+  {
+    "customerId": "C008",
+    "customerName": "บริษัท บางปะกง ฟาร์ม โปรดักส์ จำกัด",
+    "customerRegion": "ตะวันออก",
+    "customerDistrict": "203",
+    "customerProvince": "ฉะเชิงเทรา",
+    "customerType": "AG",
+    "customerCreditLimit": "380,000.00"
+  },
+  {
+    "customerId": "C009",
+    "customerName": "ร้าน ภูเก็ต ซีฟู้ด สเปเชียลตี้",
+    "customerRegion": "ใต้",
+    "customerDistrict": "901",
+    "customerProvince": "ภูเก็ต",
+    "customerType": "RT",
+    "customerCreditLimit": "125,000.00"
+  },
+  {
+    "customerId": "C010",
+    "customerName": "บริษัท กรุงเทพ ดิสทริบิวชั่น เซ็นเตอร์ จำกัด",
+    "customerRegion": "กลาง",
+    "customerDistrict": "102",
+    "customerProvince": "กรุงเทพมหานคร",
+    "customerType": "WS",
+    "customerCreditLimit": "750,000.00"
+  },
+  {
+    "customerId": "C011",
+    "customerName": "ห้างหุ้นส่วนจำกัด นครราชสีมา เอ็กซ์ปอร์ต",
+    "customerRegion": "ตะวันออกเฉียงเหนือ",
+    "customerDistrict": "302",
+    "customerProvince": "นครราชสีมา",
+    "customerType": "EX",
+    "customerCreditLimit": "580,000.00"
+  },
+  {
+    "customerId": "C012",
+    "customerName": "บริษัท ลำปาง อาหารสัตว์ จำกัด",
+    "customerRegion": "เหนือ",
+    "customerDistrict": "502",
+    "customerProvince": "ลำปาง",
+    "customerType": "AG",
+    "customerCreditLimit": "290,000.00"
+  },
+  {
+    "customerId": "C013",
+    "customerName": "ร้าน หาดใหญ่ โฮลเซล มาร์เก็ต",
+    "customerRegion": "ใต้",
+    "customerDistrict": "902",
+    "customerProvince": "สงขลา",
+    "customerType": "WS",
+    "customerCreditLimit": "340,000.00"
+  },
+  {
+    "customerId": "C014",
+    "customerName": "บริษัท สุรินทร์ เกษตรพัฒนา จำกัด",
+    "customerRegion": "ตะวันออกเฉียงเหนือ",
+    "customerDistrict": "303",
+    "customerProvince": "สุรินทร์",
+    "customerType": "AG",
+    "customerCreditLimit": "415,000.00"
+  },
+  {
+    "customerId": "C015",
+    "customerName": "ห้างหุ้นส่วนจำกัด สมุทรปราการ เทค โซลูชั่น",
+    "customerRegion": "กลาง",
+    "customerDistrict": "103",
+    "customerProvince": "สมุทรปราการ",
+    "customerType": "RT",
+    "customerCreditLimit": "165,000.00"
+  },
+  {
+    "customerId": "C016",
+    "customerName": "บริษัท ระยอง อินดัสเทรียล พาร์ค จำกัด",
+    "customerRegion": "ตะวันออก",
+    "customerDistrict": "204",
+    "customerProvince": "ระยอง",
+    "customerType": "IN",
+    "customerCreditLimit": "820,000.00"
+  },
+  {
+    "customerId": "C017",
+    "customerName": "ร้าน เพชรบูรณ์ ออร์แกนิค ฟาร์ม",
+    "customerRegion": "เหนือ",
+    "customerDistrict": "503",
+    "customerProvince": "เพชรบูรณ์",
+    "customerType": "AG",
+    "customerCreditLimit": "220,000.00"
+  },
+  {
+    "customerId": "C018",
+    "customerName": "บริษัท อุดรธานี เฟรช มาร์เก็ต จำกัด",
+    "customerRegion": "ตะวันออกเฉียงเหนือ",
+    "customerDistrict": "304",
+    "customerProvince": "อุดรธานี",
+    "customerType": "RT",
+    "customerCreditLimit": "275,000.00"
+  },
+  {
+    "customerId": "C019",
+    "customerName": "ห้างหุ้นส่วนจำกัด สุราษฎร์ธานี ดิสทริบิวเตอร์",
+    "customerRegion": "ใต้",
+    "customerDistrict": "903",
+    "customerProvince": "สุราษฎร์ธานี",
+    "customerType": "WS",
+    "customerCreditLimit": "395,000.00"
+  },
+  {
+    "customerId": "C020",
+    "customerName": "บริษัท ปทุมธานี ไฮเทค เซ็นเตอร์ จำกัด",
+    "customerRegion": "กลาง",
+    "customerDistrict": "104",
+    "customerProvince": "ปทุมธานี",
+    "customerType": "IN",
+    "customerCreditLimit": "690,000.00"
+  }
+]

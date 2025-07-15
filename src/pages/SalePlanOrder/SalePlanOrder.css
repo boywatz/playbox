@@ -1,0 +1,27 @@
+.title-header {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.disabled-input {
+  background-color: #f5f5f5;
+}
+
+.label-bold {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.input-order-btn {
+  height: 32px !important;
+  padding: 8px 10px !important;
+  width: auto !important;
+  border: 1px solid #757d87 !important;
+  border-radius: 8px !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+}

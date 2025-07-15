@@ -34,7 +34,7 @@ const DevicePreview = ({ children, className = "" }) => {
   return (
     <div className={`device-preview-wrapper ${className}`}>
       {/* Device selector */}
-      <div className="device-selector">
+      {/* <div className="device-selector">
         {Object.entries(devices).map(([key, device]) => (
           <button
             key={key}
@@ -45,7 +45,7 @@ const DevicePreview = ({ children, className = "" }) => {
             <span className="device-name">{device.name}</span>
           </button>
         ))}
-      </div>
+      </div> */}
 
       {/* Device frame */}
       <div className="device-frame">

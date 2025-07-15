@@ -1,0 +1,85 @@
+.cell-style {
+  padding: 0.25em 0.65em;
+  text-align: left;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.cell-style.text-center {
+  text-align: center;
+}
+
+.table-wrapper,
+.table-wrapper-2,
+.table-wrapper-3 {
+  display: block;
+  max-width: 430px;
+  max-height: 200px; /*TODO:: place auto or 100%*/
+  overflow: auto;
+}
+
+.table-style {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+  min-width: 100%;
+}
+
+.table-style thead {
+  background: #e3e6eb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table-style th,
+.table-style td {
+  display: table-cell;
+  border-bottom: 1px solid #d3d9e2;
+  border-right: 1px solid #d3d9e2;
+}
+
+/* Multi-level header styling */
+.table-style thead tr:first-child th {
+  background: #d6dbe3;
+  font-weight: bold;
+  border-bottom: 2px solid #b8c1ce;
+}
+
+.table-style thead tr:last-child th {
+  background: #e3e6eb;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.table-tools {
+  min-height: 150px;
+  border: 1.5px solid #757d87;
+  background-color: #ddedff;
+}
+.qty-input {
+  width: 48px;
+  height: 20px;
+  text-align: center;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid #757d87;
+  border-radius: 4px;
+}
+.stock-table-header-color {
+  background-color: #c2e0ff !important;
+}
+.stock-table-input-1-color {
+  background-color: #ecf5ff !important;
+}
+.stock-table-input-2-color {
+  background-color: #ddedff !important;
+}
+.order-table-header-color {
+  background-color: #92dea3 !important;
+}
+.order-table-input-1-color {
+  background-color: #f6ffed !important;
+}
+.order-table-input-2-color {
+  background-color: #e4f9cf !important;
+}

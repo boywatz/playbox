@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import HomePage from "./pages/HomePage";
 import POSApp from "./pages/POSApp/POSApp";
+import SalePlanOrder from "./pages/SalePlanOrder/SalePlanOrder";
 import ResponsivePage from "./pages/ResponsivePage";
 import "./App.css";
 
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainContent sidebarOpen={sidebarOpen} />}>
             <Route index element={<HomePage />} />
+            <Route path="sale-plan-order" element={<SalePlanOrder />} />
             <Route path="pos-app" element={<POSApp />} />
             <Route path="responsive" element={<ResponsivePage />} />
           </Route>

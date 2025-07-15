@@ -5,6 +5,12 @@ import "./Sidebar.css";
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const location = useLocation();
   const features = [
+    {
+      id: "sale-plan-order",
+      name: "Sale Plan Order (Website",
+      icon: "📝",
+      path: "/sale-plan-order",
+    },
     { id: "pos-app", name: "POS - App (Tablet)", icon: "🛒", path: "/pos-app" },
     {
       id: "responsive",
