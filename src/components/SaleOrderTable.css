@@ -10,11 +10,25 @@
 
 .table-wrapper,
 .table-wrapper-2,
-.table-wrapper-3 {
+.table-wrapper-3,
+.table-wrapper-4 {
   display: block;
-  max-width: 430px;
-  max-height: 200px; /*TODO:: place auto or 100%*/
+  height: 200px;
+  /* width: 100%; */
+  /* height: 100%; */
   overflow: auto;
+}
+
+.table-wrapper {
+  max-width: 450px;
+}
+
+.table-wrapper-2 {
+  max-width: 250px;
+}
+
+.table-wrapper-3 {
+  max-width: 279.13px;
 }
 
 .table-style {
@@ -82,4 +96,64 @@
 }
 .order-table-input-2-color {
   background-color: #e4f9cf !important;
+}
+.summary-table-header-color {
+  background-color: #d0d6dd !important;
+}
+.summary-table-input-1-color {
+  background-color: #f1f3f5 !important;
+}
+.header-text {
+  width: 100%;
+  background-color: #0150a0 !important;
+  color: #fff;
+  padding: 0.25rem 0.15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.button-brand-type {
+  height: 32px !important;
+  padding: 2px !important;
+  width: 30px !important;
+  border: 1px solid #757d87 !important;
+  border-radius: 8px !important;
+  background-color: #fff !important;
+  color: #0150a0 !important;
+  font-size: 10px !important;
+  font-weight: 900 !important;
+  cursor: pointer !important;
+}
+.unit-convert-input {
+  width: 100%;
+  height: 20px;
+  padding: 2px 4px;
+  box-sizing: border-box;
+  border: 1.8px solid #757d87;
+  border-radius: 6px;
+}
+.semi-label-bold {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 0 12px !important;
+}
+.outline-input {
+  max-width: 220px;
+  height: 32px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  border: 1.5px solid #757d87;
+  border-radius: 6px;
+}
+.outline-input > div.MuiSelect-select {
+  padding: 0px !important;
+  margin-right: 25px !important;
+  font-size: 12px;
+}
+.outline-label {
+  min-width: 50px;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0 0 0 12px !important;
 }

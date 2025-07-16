@@ -67,7 +67,7 @@
 
 /* Desktop styles */
 .responsive-container.desktop {
-  max-width: 100%;
+  width: 1470px;
   min-height: 800px;
   border-color: #10b981;
   background: #f0fdf4;

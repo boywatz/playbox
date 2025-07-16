@@ -281,18 +281,6 @@ const SalePlanOrder = () => {
               </Grid>
             </Grid>
 
-            <Grid container spacing={2} alignItems="center">
-              <Grid size={7}>
-                <span className="label-bold">1. กรอกรายการสินค้า</span>
-              </Grid>
-              <Grid size={"grow"}>
-                <span className="label-bold">2. กรอกจำนวนการสั่งซื้อ</span>
-              </Grid>
-              <Grid size={3}>
-                <span className="label-bold">3. รวมทั้งหมด</span>
-              </Grid>
-            </Grid>
-
             <SaleOrderTable />
           </Box>
         </ResponsiveContainer>
